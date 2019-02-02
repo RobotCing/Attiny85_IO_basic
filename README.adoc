@@ -46,7 +46,8 @@ Cing.ReadButtonExternal()
 
 
 #### Returns
- 0 if button is not pressed or 1 if button is pressed.
+
+0 if button is not pressed or 1 if button is pressed.
 
 ---
 
