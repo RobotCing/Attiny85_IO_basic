@@ -1,11 +1,144 @@
-= Attiny85_IO_basic Library for robot Cing =
+# Attiny85_IO Library for robot Cing #
 
 This library allows robot Cing to be programmed easily.
 
 For more information about this library please visit us at
 http://robotcing.wz.sk
 
-== License ==
+---
+
+## Attiny Libraries Functions
+
+### Cing.RunMotor()
+[Motor]
+
+#### Description
+
+Controls motor movement.
+
+#### Syntax
+
+Cing.RunMotor(motor,state,mode)
+
+#### Parameters
+
+motor: "A", "B", "AB"
+
+state: 0 or 1 if digital mode is used and 0 to 100 if analog mode is used
+
+mode:"digital" or "analog"
+
+---
+
+### Cing.ReadButtonExternal()
+
+[Sensor]
+
+
+#### Description
+
+Reads the value from external button, either 0 or 1.
+
+
+#### Syntax
+
+Cing.ReadButtonExternal()
+
+
+#### Returns
+1 or 0
+
+---
+
+### Cing.ReadPotentiometerExternal()
+[Sensor]
+
+#### Description
+
+Reads the value from external potentiometer.
+
+#### Syntax
+
+Cing.ReadPotentiometerExternal()
+
+#### Returns
+from 0 to 100
+
+---
+
+### Cing.ReadLightSensor()
+
+[Sensor]
+
+
+#### Description
+
+Reads the value from light sensor.
+
+
+#### Syntax
+
+Cing.ReadLightSensor(sensor,mode)
+
+
+#### Parameters
+
+sensor: 1 or 2 used for selection of sensor
+
+mode:"digital" or "analog"
+
+
+#### Returns
+
+from 0 to 100 in analog mode and either 0 or 1 in digital mode.
+
+---
+
+### Cing.ReadShineSensor()
+
+[Sensor]
+
+
+#### Description
+
+Reads the value from external shine sensor.
+
+
+#### Syntax
+
+Cing.ReadShineSensor()
+
+
+#### Returns
+
+from 0 to 100
+
+---
+
+## In progress
+
+### Cing.UltrasonicSensor()
+
+[Sensor]
+
+
+#### Description
+
+Reads the value from external ultrasonic sensor.
+
+
+#### Syntax
+
+Cing.UltrasonicSensor()
+
+
+#### Returns
+
+Distance in mm from 0 to 400mm.
+
+---
+
+## License ##
 
 Copyright © 2019 RobotCing Team. All right reserved.
 
