@@ -46,7 +46,7 @@ Cing.ReadButtonExternal()
 
 
 #### Returns
-1 or 0
+ 0 if button is not pressed or 1 if button is pressed.
 
 ---
 
@@ -62,7 +62,7 @@ Reads the value from external potentiometer.
 Cing.ReadPotentiometerExternal()
 
 #### Returns
-from 0 to 100
+From 0 to 100 depending on potentiometer position.
 
 ---
 
@@ -90,7 +90,7 @@ mode:"digital" or "analog"
 
 #### Returns
 
-from 0 to 100 in analog mode and either 0 or 1 in digital mode.
+From 0 to 100 in analog mode and either 0 or 1 in digital mode.
 
 ---
 
@@ -111,7 +111,7 @@ Cing.ReadShineSensor()
 
 #### Returns
 
-from 0 to 100
+From 0 to 100 depending on ambient light.
 
 ---
 
