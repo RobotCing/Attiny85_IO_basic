@@ -18,15 +18,15 @@ Controls motor movement.
 
 #### Syntax
 
-Cing.RunMotor(motor,state,mode)
+`Cing.RunMotor(motor,state,mode)`
 
 #### Parameters
 
-motor: "A", "B", "AB"
+motor: `"A"`, `"B"`, `"AB"`
 
-state: 0 or 1 if digital mode is used and 0 to 100 if analog mode is used
+state: `0` or `1` if digital mode is used and `0` to `100` if analog mode is used
 
-mode:"digital" or "analog"
+mode: `"digital"` or `"analog"`
 
 ---
 
@@ -37,17 +37,17 @@ mode:"digital" or "analog"
 
 #### Description
 
-Reads the value from external button, either 0 or 1.
+Reads the value from external button, either `0` or `1`.
 
 
 #### Syntax
 
-Cing.ReadButtonExternal()
+`Cing.ReadButtonExternal()`
 
 
 #### Returns
 
-0 if button is not pressed or 1 if button is pressed.
+`0` if button is not pressed or `1` if button is pressed.
 
 ---
 
@@ -60,10 +60,10 @@ Reads the value from external potentiometer.
 
 #### Syntax
 
-Cing.ReadPotentiometerExternal()
+`Cing.ReadPotentiometerExternal()`
 
 #### Returns
-From 0 to 100 depending on potentiometer position.
+From `0` to `100` depending on potentiometer position.
 
 ---
 
@@ -79,19 +79,19 @@ Reads the value from light sensor.
 
 #### Syntax
 
-Cing.ReadLightSensor(sensor,mode)
+`Cing.ReadLightSensor(sensor,mode)`
 
 
 #### Parameters
 
-sensor: 1 or 2 used for selection of sensor
+sensor: `1` or `2` used for selection of sensor
 
-mode:"digital" or "analog"
+mode: `"digital"` or `"analog"`
 
 
 #### Returns
 
-From 0 to 100 in analog mode and either 0 or 1 in digital mode.
+From `0` to `100` in analog mode and either `0` or `1` in digital mode.
 
 ---
 
@@ -107,12 +107,12 @@ Reads the value from external shine sensor.
 
 #### Syntax
 
-Cing.ReadShineSensor()
+`Cing.ReadShineSensor()`
 
 
 #### Returns
 
-From 0 to 100 depending on ambient light.
+From `0` to `100` depending on ambient light.
 
 ---
 
@@ -130,12 +130,12 @@ Reads the value from external ultrasonic sensor.
 
 #### Syntax
 
-Cing.UltrasonicSensor()
+`Cing.UltrasonicSensor()`
 
 
 #### Returns
 
-Distance in mm from 0 to 400mm.
+Distance in mm from `0` to `400`.
 
 ---
 
