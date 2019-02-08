@@ -24,7 +24,7 @@ Controls motor movement.
 
 motor: `"A"`, `"B"`, `"AB"`. `"A"` controls motor `A` only `"B"` controls motor `B` only and `"AB"` controls motors `A` and `B` simultaneously.
 
-state: `0` or `1` or `-1` if digital mode is used and `0` to `100` if analog mode is used. Positive values are used for forward, negative values are used for reverse.
+state: `0` or `1` if digital mode is used and `0` to `100` if analog mode is used.
 
 mode: `"digital"` or `"analog"`
 
