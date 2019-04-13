@@ -14,7 +14,7 @@ class Cing
     Cing();
     void RunMotor(String motor,int speed= 100,String mode = "digital");
     int ReadLightSensor(int sensor = 1,String mode = "digital");
-    int ReadUltrasonicSensor();
+    bool ReadUltrasonicSensor();
     int ReadShineSensor();
     int ReadPotentiometerExternal();
   private:

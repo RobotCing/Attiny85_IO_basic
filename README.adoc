@@ -133,7 +133,7 @@ Reads the value from external ultrasonic sensor.
 
 #### Returns
 
-Distance in mm from `0` or `1`. 1 means obstacle at distance lower then 30cm and 0 means no obstacle.
+Distance in mm from `0` or `1`. 1 means obstacle at distance lower then trigger distance(can be set by potentiometer) and 0 means no obstacle.
 
 ---
 
